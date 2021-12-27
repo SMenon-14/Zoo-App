@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/zoo_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/zoo_app_icon"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".MyZooBoosters"></activity>
+        <activity android:name=".MyZooStoreActivity" />
+        <activity android:name=".MyZooActivity" />
+        <activity android:name=".HabitatsGameActivity" />
+        <activity android:name=".Matching6x6Activity" />
+        <activity android:name=".OpeningScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IdentifierActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".AchievementSliderActivity" />
+        <activity android:name=".MyAnimalsActivity" />
+        <activity android:name=".UserProfileActivity" />
+        <activity android:name=".RandomAnimalActivity" />
+        <activity android:name=".GamesMenuActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
