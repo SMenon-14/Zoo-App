@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="games_array">
+        <item>Games </item>
+        <item>Guess The Animal Quiz</item>
+        <item>Habitats Game</item>
+        <item>Racing Game</item>
+        <item>My Zoo</item>
+    </string-array>
+</resources>
