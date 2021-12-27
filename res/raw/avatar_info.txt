@@ -1,0 +1,2 @@
+avatar_elephant.png
+avatar_lion.png
