@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#E3EAFD"
+    tools:context=".HabitatsGameActivity">
+
+    <!-- <LinearLayout
+         android:id="@+id/topHabitatOptions"
+         android:layout_width="match_parent"
+         android:orientation="horizontal"
+         android:layout_height="180dp"
+         android:background="#FFFFFF">
+
+         <LinearLayout
+             android:id="@+id/habitatOp1"
+             android:layout_width="180dp"
+             android:layout_height="180dp"
+             android:orientation="vertical">
+
+             <TextView
+                 android:id="@+id/habitatOp1Text"
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:background="#F44336"
+                 android:fontFamily="@font/annie_use_your_telescope"
+                 android:text="Habitat 1"
+                 android:textColor="#000"
+                 android:gravity="center"
+                 app:autoSizeTextType="uniform"
+                 />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/habitatOp2"
+             android:layout_width="177dp"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+             <TextView
+                 android:id="@+id/habitatOp2Text"
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:background="#FF9800"
+                 android:fontFamily="@font/annie_use_your_telescope"
+                 android:text="Habitat 2"
+                 android:textColor="#000"
+                 android:gravity="center"
+                 app:autoSizeTextType="uniform"
+                 />
+
+         </LinearLayout>
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/bottomHabitatOptions"
+         android:layout_width="match_parent"
+         android:orientation="horizontal"
+         android:layout_height="180dp"
+         android:background="#FFFFFF">
+
+         <LinearLayout
+             android:id="@+id/habitatOp3"
+             android:layout_width="180dp"
+             android:layout_height="180dp"
+             android:orientation="vertical">
+
+             <TextView
+                 android:id="@+id/habitatOp3Text"
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:background="#CDDC39"
+                 android:fontFamily="@font/annie_use_your_telescope"
+                 android:text="Habitat 3"
+                 android:textColor="#000"
+                 android:gravity="center"
+                 app:autoSizeTextType="uniform"
+                 />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/habitatOp4"
+             android:layout_width="177dp"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+             <TextView
+                 android:id="@+id/habitatOp4Text"
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:background="#009688"
+                 android:fontFamily="@font/annie_use_your_telescope"
+                 android:text="Habitat 4"
+                 android:textColor="#000"
+                 android:gravity="center"
+                 app:autoSizeTextType="uniform"
+                 />
+
+         </LinearLayout>
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/animalContainer"
+         android:layout_width="match_parent"
+         android:layout_height="139dp"
+         android:gravity="center"
+         android:orientation="vertical">
+
+         <TextView
+             android:id="@+id/toDrag"
+             android:layout_height="50dp"
+             android:layout_width="300dp"
+             android:background="#00BCD4"
+             android:fontFamily="@font/annie_use_your_telescope"
+             android:text="Animal"
+             android:textColor="#000"
+             android:gravity="center"
+             app:autoSizeTextType="uniform"
+             />
+
+     </LinearLayout>  -->
+
+
+ </LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/random_animal_button"
+        android:layout_width="339dp"
+        android:layout_height="46dp"
+        android:text="@string/random_animal_generator"
+        app:backgroundTint="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919" />
+
+    <Button
+        android:id="@+id/game_button"
+        android:layout_width="339dp"
+        android:layout_height="46dp"
+        android:text="@string/games"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
+
+    <Button
+        android:id="@+id/image_selection_button"
+        android:layout_width="339dp"
+        android:layout_height="46dp"
+        android:text="@string/animal_indentifier_page"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329" />
+
+    <Button
+        android:id="@+id/user_profile_button"
+        android:layout_width="339dp"
+        android:layout_height="46dp"
+        android:text="@string/profile"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#8BC34A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

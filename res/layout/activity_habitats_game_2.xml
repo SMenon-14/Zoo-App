@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#E3EAFD"
+    tools:context=".HabitatsGameActivity">
+
+    <TextView
+        android:id="@+id/habitatOp1Text"
+        android:contentDescription="@string/habitat_1"
+        android:layout_width="365dp"
+        android:layout_height="90dp"
+        android:background="#EF9A9A"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="center"
+        android:text="@string/habitat_1"
+        android:textColor="#000"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/habitatOp2Text"
+        android:contentDescription="@string/habitat_2"
+        android:layout_width="365dp"
+        android:layout_height="90dp"
+        android:background="#FFCC80"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="@string/habitat_2"
+        android:textColor="#000"
+        android:gravity="center"
+        app:autoSizeTextType="uniform"
+        />
+
+    <TextView
+        android:id="@+id/habitatOp3Text"
+        android:contentDescription="@string/habitat_3"
+        android:layout_width="365dp"
+        android:layout_height="90dp"
+        android:background="#C5E1A5"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="@string/habitat_3"
+        android:textColor="#000"
+        android:gravity="center"
+        app:autoSizeTextType="uniform"
+        />
+
+    <TextView
+        android:id="@+id/habitatOp4Text"
+        android:contentDescription="@string/habitat_4"
+        android:layout_width="365dp"
+        android:layout_height="90dp"
+        android:background="#80CBC4"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="@string/habitat_4"
+        android:textColor="#000"
+        android:gravity="center"
+        app:autoSizeTextType="uniform"
+    />
+
+    <TextView
+        android:id="@+id/toDrag"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#80DEEA"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="center"
+        android:text="Animal"
+        android:textColor="#000"
+        app:autoSizeTextType="uniform" />
+
+    <LinearLayout
+        android:id="@+id/score_and_strikes_habitats"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:text="@string/score"
+        android:textColor="#000000"
+        android:textSize="18sp">
+
+        <TextView
+            android:id="@+id/habitats_score"
+            android:layout_width="182dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingLeft="15dp"
+            android:text="@string/score"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/habitats_strike"
+            android:layout_width="182dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingLeft="15dp"
+            android:text="@string/strikes"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

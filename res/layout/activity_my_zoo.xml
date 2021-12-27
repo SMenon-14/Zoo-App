@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2EBF2"
+    tools:context=".MyZooActivity">
+
+    <Button
+        android:id="@+id/store_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/store"
+        app:backgroundTint="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <Button
+        android:id="@+id/menu_from_clicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        app:backgroundTint="#CDDC39"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <ImageView
+        android:id="@+id/clicker_icon"
+        android:layout_width="222dp"
+        android:layout_height="235dp"
+        android:contentDescription="@string/click_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712"
+        app:srcCompat="@drawable/asian_elephant_badge" />
+
+    <TextView
+        android:id="@+id/click_instructions"
+        android:layout_width="369dp"
+        android:layout_height="34dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="center"
+        android:text="@string/click_the_icon_to_gain_zoo_points"
+        android:textColor="#009688"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <TextView
+        android:id="@+id/swipe_instructions"
+        android:layout_width="369dp"
+        android:layout_height="34dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="center"
+        android:text="@string/swipe_the_question_left_for_false_and_right_for_true"
+        android:textColor="#009688"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393" />
+
+    <TextView
+        android:id="@+id/swipe_instructions3"
+        android:layout_width="369dp"
+        android:layout_height="34dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="center"
+        android:text="@string/answer_questions_to_gain_zoo_points"
+        android:textColor="#009688"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
+
+    <TextView
+        android:id="@+id/my_zoo_question"
+        android:layout_width="360dp"
+        android:layout_height="168dp"
+        android:background="#80DEEA"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="center"
+        android:text="@string/my_zoo_question"
+        android:textColor="#006064"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/score_display"
+        android:layout_width="149dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="15dp"
+        android:text="Zoo Points"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

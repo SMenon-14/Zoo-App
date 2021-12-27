@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_menu_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/games_menu_screen"
+    android:contentDescription="@string/screen_background">
+
+    <Button
+        android:id="@+id/button_to_quiz"
+        android:layout_width="99dp"
+        android:layout_height="87dp"
+        app:backgroundTint="#0000ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <Button
+        android:id="@+id/button_to_my_zoo"
+        android:layout_width="102dp"
+        android:layout_height="83dp"
+        app:backgroundTint="#0000ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
+
+    <Button
+        android:id="@+id/button_to_matching"
+        android:layout_width="99dp"
+        android:layout_height="89dp"
+        app:backgroundTint="#0000ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
+
+    <Button
+        android:id="@+id/button_to_habitats"
+        android:layout_width="106dp"
+        android:layout_height="91dp"
+        app:backgroundTint="#0000ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
